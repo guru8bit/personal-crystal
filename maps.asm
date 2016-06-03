@@ -510,3 +510,8 @@ SECTION "Map Scripts 25", ROMX, BANK[MAP_SCRIPTS_25]
 
 INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
+
+SECTION "Route101", ROMX
+INCLUDE "maps/Route101.asm"
+SECTION "Route101 Blockdata", ROMX
+Route101_BlockData: INCBIN "maps/Route101.blk"

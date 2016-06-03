@@ -37,23 +37,3 @@ INCBIN "tilesets/27_collision.bin"
 Tileset28GFX: ; 0x31de0
 INCBIN "gfx/tilesets/28.2bpp.lz"
 ; 0x321b0
-
-Tileset28Meta: ; 0x321b0
-INCBIN "tilesets/28_metatiles.bin"
-; 0x325b0
-
-Tileset28Coll: ; 0x325b0
-INCBIN "tilesets/28_collision.bin"
-; 0x326b0
-
-Tileset30GFX: ; 0x326b0
-INCBIN "gfx/tilesets/30.2bpp.lz"
-; 0x329f0
-
-UnusedTileset30Meta: ; 0x329f0
-INCBIN "tilesets/unused_30_metatiles.bin"
-; 0x331f0
-
-UnusedTileset30Coll: ; 0x331f0
-INCBIN "tilesets/unused_30_collision.bin"
-; 0x333f0

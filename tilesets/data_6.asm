@@ -38,10 +38,6 @@ Tileset19Coll: ; 0xde370
 INCBIN "tilesets/19_collision.bin"
 ; 0xde470
 
-Tileset31Coll: ; 0xde470
-INCBIN "tilesets/31_collision.bin"
-; 0xde570
-
 Tileset11GFX: ; 0xde570
 INCBIN "gfx/tilesets/11.2bpp.lz"
 ; 0xde990
@@ -54,17 +50,6 @@ Tileset11Coll: ; 0xded90
 INCBIN "tilesets/11_collision.bin"
 ; 0xdee90
 
-Tileset04Meta: ; 0xdee90
-INCBIN "tilesets/04_metatiles.bin"
-; 0xdf690
-
-Tileset04Coll: ; 0xdf690
-INCBIN "tilesets/04_collision.bin"
-; 0xdf890
-
-Tileset32Meta: ; 0xdf890
-INCBIN "tilesets/32_metatiles.bin"
-; 0xdfc90
 
 Tileset32Coll: ; 0xdfc90
 Tileset33Coll: ; 0xdfc90
@@ -73,3 +58,16 @@ Tileset35Coll: ; 0xdfc90
 Tileset36Coll: ; 0xdfc90
 INCBIN "tilesets/36_collision.bin"
 ; 0xdfd90
+
+
+UnusedTileset30Coll: ; 0x331f0
+INCBIN "tilesets/unused_30_collision.bin"
+; 0x333f0
+
+Tileset20Meta: ; 0x1b8fe
+INCBIN "tilesets/20_metatiles.bin"
+; 0x1bcfe
+
+Tileset20Coll: ; 0x1bcfe
+INCBIN "tilesets/20_collision.bin"
+; 0x1bdfe

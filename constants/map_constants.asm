@@ -8,10 +8,13 @@ MAP_NONE   EQU 0
 	const_def
 	newgroup                                                    ;  1
 
+	mapgroup ROUTE_NEW, 20, 20
 	mapgroup OLIVINE_POKECENTER_1F,                       4,  5 ;  1
 	mapgroup OLIVINE_GYM,                                 8,  5 ;  2
 	mapgroup OLIVINE_TIMS_HOUSE,                          4,  4 ;  3
+	mapgroup ROUTENEW, 20, 20
 	mapgroup OLIVINE_HOUSE_BETA,                          4,  4 ;  4
+	mapgroup ROUTE101, 20, 20
 	mapgroup OLIVINE_PUNISHMENT_SPEECH_HOUSE,             4,  4 ;  5
 	mapgroup OLIVINE_GOOD_ROD_HOUSE,                      4,  4 ;  6
 	mapgroup OLIVINE_CAFE,                                4,  4 ;  7
@@ -429,7 +432,7 @@ MAP_NONE   EQU 0
 	mapgroup ROUTE_26,                                   54, 10 ;  1
 	mapgroup ROUTE_27,                                    9, 40 ;  2
 	mapgroup ROUTE_29,                                    9, 30 ;  3
-	mapgroup NEW_BARK_TOWN,                               9, 10 ;  4
+	mapgroup NEW_BARK_TOWN, 9, 10
 	mapgroup ELMS_LAB,                                    6,  5 ;  5
 	mapgroup KRISS_HOUSE_1F,                              4,  5 ;  6
 	mapgroup KRISS_HOUSE_2F,                              3,  4 ;  7
@@ -439,6 +442,7 @@ MAP_NONE   EQU 0
 	mapgroup ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE,         4,  4 ; 11
 	mapgroup ROUTE_27_SANDSTORM_HOUSE,                    4,  4 ; 12
 	mapgroup ROUTE_29_46_GATE,                            4,  5 ; 13
+	mapgroup ROUTE_101,                                  10, 10 ; 14
 
 	newgroup                                                    ; 25
 

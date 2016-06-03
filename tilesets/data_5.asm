@@ -47,14 +47,10 @@ Tileset02Coll: ; 0xb72e8
 INCBIN "tilesets/02_collision.bin"
 ; 0xb74e8
 
-Tileset16GFX: ; 0xb74e8
-INCBIN "gfx/tilesets/16.2bpp.lz"
-; 0xb79a8
+Tileset28Coll: ; 0x325b0
+INCBIN "tilesets/28_collision.bin"
+; 0x326b0
 
-Tileset16Meta: ; 0xb79a8
-INCBIN "tilesets/16_metatiles.bin"
-; 0xb7da8
-
-Tileset16Coll: ; 0xb7da8
-INCBIN "tilesets/16_collision.bin"
-; 0xb7ea8
+Tileset30GFX: ; 0x326b0
+INCBIN "gfx/tilesets/30.2bpp.lz"
+; 0x329f0

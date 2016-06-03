@@ -1,4 +1,5 @@
-	map_header_2 NewBarkTown, NEW_BARK_TOWN, $5, WEST | EAST
+	map_header_2 NewBarkTown, NEW_BARK_TOWN, 5, WEST | EAST | SOUTH
+	connection south, ROUTE_101, Route101, 0, 5, 10, NEW_BARK_TOWN
 	connection west, ROUTE_29, Route29, 0, 0, 9, NEW_BARK_TOWN
 	connection east, ROUTE_27, Route27, 0, 0, 9, NEW_BARK_TOWN
 
@@ -60,6 +61,9 @@
 	connection north, ROUTE_46, Route46, 10, 0, 10, ROUTE_29
 	connection west, CHERRYGROVE_CITY, CherrygroveCity, 0, 0, 9, ROUTE_29
 	connection east, NEW_BARK_TOWN, NewBarkTown, 0, 0, 9, ROUTE_29
+    
+	map_header_2 Route101, ROUTE_101, 5, NORTH
+	connection north, NEW_BARK_TOWN, NewBarkTown, 0, 0, 10, ROUTE_101
 
 	map_header_2 Route30, ROUTE_30, $5, NORTH | SOUTH
 	connection north, ROUTE_31, Route31, -3, 7, 13, ROUTE_30
@@ -596,3 +600,4 @@
 	map_header_2 Route30BerrySpeechHouse, ROUTE_30_BERRY_SPEECH_HOUSE, $0, 0
 	map_header_2 MrPokemonsHouse, MR_POKEMONS_HOUSE, $0, 0
 	map_header_2 Route31VioletGate, ROUTE_31_VIOLET_GATE, $0, 0
+
